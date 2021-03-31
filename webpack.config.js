@@ -5,7 +5,7 @@ module.exports={
   entry:'./client/index.js',
   mode:'development',
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['*','.js', '.jsx']
   },
   output: {
     path: __dirname,
@@ -31,6 +31,10 @@ module.exports={
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
       },
+      {
+				test: /\.(png|jpe?g|gif|svg|webp)$/i,
+				type: 'asset/resource',
+			},
     ]
   }
 }
