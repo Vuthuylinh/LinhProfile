@@ -1,6 +1,7 @@
 //https://webpack.js.org/configuration/dev-server/
-
+//https://www.netlify.com/blog/2017/11/30/starting-with-webpack-from-scratch/
 const path = require('path');
+// const webpack = require('webpack');
 module.exports={
   entry:'./client/index.js',
   mode:'development',
