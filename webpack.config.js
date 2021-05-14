@@ -10,7 +10,7 @@ module.exports={
     extensions: ['*','.js', '.jsx']
   },
   output: {
-    path: path.resollve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'bundle.js'
   },
   devtool: 'source-map',
