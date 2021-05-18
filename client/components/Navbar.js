@@ -4,10 +4,8 @@ export default function Navbar() {
   return (
       <div>
           <h1>Home</h1>
- <img src={logo}/>
-
+          <img src={logo}/>
       </div>
-  
   )
 }
 
