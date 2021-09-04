@@ -4,7 +4,7 @@
 const path = require('path');
 // const webpack = require('webpack');
 module.exports={
-  entry:'./client/index.js',
+  entry:'./app/index.js',
   mode:'development',
   resolve: {
     extensions: ['*','.js', '.jsx']
