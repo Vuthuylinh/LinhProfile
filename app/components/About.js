@@ -1,8 +1,8 @@
 import React from 'react'
 import linhPhoto from '../media/profilePictureLinh.png'
+// import {Helmet} from "react-helmet";
 export default function About() {
   return (
-    <div>
       <section class="about-me">
         <div class="intro">
           <article class="typewriter">
@@ -35,7 +35,6 @@ export default function About() {
           </div>
         </div>
       </section>
-    </div>
 
   )
 }
