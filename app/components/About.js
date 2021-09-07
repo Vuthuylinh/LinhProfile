@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../media/logo2.png'
+import linhPhoto from '../media/profilePictureLinh.png'
 export default function About() {
   return (
     <div>
@@ -24,7 +25,7 @@ export default function About() {
           <div class="profile">
             <img
               id="profile-image"
-              src=".../media/logo2.png"
+              src={linhPhoto}
               alt="Linh's picture"
             />
           </div>
