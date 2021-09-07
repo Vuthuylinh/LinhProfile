@@ -1,10 +1,11 @@
 body {
-  background-color: #ffffff;
-  color:#970505
+  background-color: #efe1d1;
+  color: #e02932;
 }
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  background-color: #ff999c;
 }
 ul {
   display: flex;
@@ -80,10 +81,9 @@ section {
   color: #fff;
   padding-top: 10em;
 }
-.profile-wrapper
-.svg-wrapper {
+.profile-wrapper .svg-wrapper {
   position: relative;
-  transform: translate(20%,330%);
+  transform: translate(20%, 330%);
   /* transform: translateX(30%); */
   margin: 0 auto;
   width: 320px;

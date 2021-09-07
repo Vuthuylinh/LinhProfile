@@ -1,10 +1,8 @@
 import React from 'react'
-import logo from '../media/logo2.png'
 import linhPhoto from '../media/profilePictureLinh.png'
 export default function About() {
   return (
     <div>
-      <img src={logo}/>
       <section class="about-me">
         <div class="intro">
           <article class="typewriter">
