@@ -1,11 +1,16 @@
-body {
+/* body {
   background-color: #efe1d1;
   color: #e02932;
-}
+} */
+/* img {
+  width: 100px;
+  height: 100px;
+} */
+/* navbar component style */
 nav {
   display: flex;
   justify-content: space-around;
-  background-color: #ff999c;
+  background-color:#efe1d1;;
 }
 ul {
   display: flex;
@@ -15,6 +20,14 @@ li {
   justify-content: space-between;
   padding: 5px;
 }
+
+/* about me component */
+.about-me {
+  display: flex;
+  background-color: #159ca2;
+  height: 420px;
+  justify-content: space-around;
+}
 #profile-image {
   position: absolute;
   width: 300px;
@@ -23,36 +36,25 @@ li {
   border: 2.5px dashed #b55843;
   padding: 2.5px;
 }
-img {
-  width: 100px;
-  height: 100px;
-}
+
 section {
   display: flex;
 }
-.about-me {
-  display: flex;
-  background-color: #159ca2;
-  height: 420px;
-  justify-content: space-around;
-}
-.profile {
+
+/* .profile {
   padding-right: 50px;
-}
-.intro {
+} */
+/* .intro {
   padding-left: 50px;
-}
+} */
 .typewriter h1 {
   color: #fff;
   font-family: monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  /* The typwriter cursor */
-  /* border-right: 0.15em solid orange; */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
   animation: typing 3.5s steps(30, end);
-  /* blink-caret 0.5s step-end infinite; */
 }
 
 /* The typing effect */
@@ -65,47 +67,40 @@ section {
   }
 }
 
-/* The typewriter cursor effect */
-/* @keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: orange;
-  }
-} */
 .typewrite {
   text-decoration: none;
   text-align: center;
   color: #fff;
   padding-top: 10em;
 }
-.profile-wrapper .svg-wrapper {
+/* .profile-wrapper {
+  display: flex;
+  flex-direction: column;
+} */
+.profile{
+padding-left: 100px;
+}
+.svg-wrapper {
   position: relative;
   transform: translate(20%, 330%);
-  /* transform: translateX(30%); */
+  transform: translateX(30%);
   margin: 0 auto;
-  width: 320px;
+  width: 500px;
 }
 .shape {
   stroke-dasharray: 100 540;
   stroke-dashoffset: -300;
-  stroke-width: 3px;
+  stroke-width: 5px;
   fill: transparent;
-  stroke: #f65f19;
-  /* border-bottom: 5px solid black; */
+  stroke:  #ff999c;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
 .text {
   font-family: 'Roboto Condensed';
   font-size: 25px;
   line-height: 32px;
-  letter-spacing: 8px;
-  color: rgb(237, 10, 245);
-  top: -50px;
+  letter-spacing: 5px;
   position: relative;
-  padding-left: 25px;
 }
 .svg-wrapper:hover .shape {
   stroke-width: 2px;
