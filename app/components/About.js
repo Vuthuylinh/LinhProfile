@@ -26,14 +26,14 @@ export default function About() {
             alt="Linh's picture"
           />
         </div>
-        <div class="svg-wrapper">
+        <div className="svg-wrapper">
           <svg height="400" width="400" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0" y="350" class="shape" height="50" width="200" />
-              <text x="30" y="385" fill="#e02932" class="text" >LINH VU</text>
+            <rect x="0" y="350" className="shape" height="50" width="200" />
+            <text x="30" y="385" fill="#e02932" className="text" >LINH VU</text>
           </svg>
         </div>
       </div>
-
+      
     </section>
 
   )

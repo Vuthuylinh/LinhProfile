@@ -7,3 +7,5 @@
 - Almond: #efe1d1
 - Pink Salmon: #ff999c
 - Rose Madder: #e02932
+- #f4d4c8
+

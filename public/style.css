@@ -1,12 +1,3 @@
-/* body {
-  background-color: #efe1d1;
-  color: #e02932;
-} */
-/* img {
-  width: 100px;
-  height: 100px;
-} */
-/* navbar component style */
 nav {
   display: flex;
   justify-content: space-around;
@@ -20,7 +11,10 @@ li {
   justify-content: space-between;
   padding: 5px;
 }
-
+.info{
+  display: flex;
+  justify-content: space-evenly;
+}
 /* about me component */
 .about-me {
   display: flex;
