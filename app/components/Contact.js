@@ -33,6 +33,7 @@ export default function Contact() {
       >
         <img src="https://img.icons8.com/dusk/50/000000/email.png" />
       </a>
+      <a href="https://icons8.com/photos">Photo by Icons8</a>
     </div>
   )
 }
