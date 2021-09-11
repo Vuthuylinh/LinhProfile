@@ -4,6 +4,7 @@ export default function TechStack(){
   return(
     <div>
     <section className="proficient">
+    <h2>Proficient:</h2>
       <ul>
         <li>JavaScript</li>
         <li>Node.js</li>
@@ -21,6 +22,7 @@ export default function TechStack(){
       </ul>
     </section>
     <section className="familiar">
+      <h2>Familiar:</h2>
       <ul>
         <li>SQL</li>
         <li>jQuery</li>
@@ -38,6 +40,7 @@ export default function TechStack(){
       </ul>
     </section>
     <section className="colaboration tools">
+    <h2>Colaboration Tools:</h2>
       <ul>
         <li>Jira</li>
         <li>Slack</li>
