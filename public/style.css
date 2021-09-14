@@ -1,17 +1,18 @@
 nav {
   display: flex;
   justify-content: space-around;
-  background-color:#efe1d1;;
+  background-color: #efe1d1;
 }
-ul {
+.navbar {
   display: flex;
+  text-transform: uppercase;
 }
 li {
   display: inline-block;
   justify-content: space-between;
   padding: 5px;
 }
-.info{
+.info {
   display: flex;
   justify-content: space-evenly;
 }
@@ -71,8 +72,8 @@ section {
   display: flex;
   flex-direction: column;
 } */
-.profile{
-padding-left: 100px;
+.profile {
+  padding-left: 100px;
 }
 .svg-wrapper {
   position: relative;
@@ -86,7 +87,7 @@ padding-left: 100px;
   stroke-dashoffset: -300;
   stroke-width: 5px;
   fill: transparent;
-  stroke:  #ff999c;
+  stroke: #ff999c;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
 .text {
@@ -100,4 +101,12 @@ padding-left: 100px;
   stroke-width: 2px;
   stroke-dashoffset: 0;
   stroke-dasharray: 760;
+}
+
+/* TechStack */
+.tech_section {
+  /* display: flex; */
+}
+.tech-ul {
+  flex-wrap: wrap;
 }
