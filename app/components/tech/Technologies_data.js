@@ -1,7 +1,5 @@
-import React from 'react'
-import TechStack_Section from './TechStack_section'
-
-const techStack = [
+const technologiesList={
+  techStack :[
   'JavaScript',
   'Node.js',
   'Express',
@@ -30,20 +28,15 @@ const techStack = [
   'CI / CD with Travis CI',
   'Google Extensions',
   'TDD'
-];
+],
 
-const colaborative_tools = [
+colaborative_tools:[
   'Jira',
   'Slack',
   'GitHub Projects',
   'Trello',
   'Microsoft Teams',
 ]
-const linh = "hello"
-export default function TechStack() {
-  return (
-    <div>
-      <TechStack_Section technologies={techStack} tools={colaborative_tools} />
-    </div>
-  )
-}
+};
+
+export default technologiesList
