@@ -6,7 +6,7 @@ const TechStack_Section = (props) => {
       <ul className="tech-ul">
         {
           props.technologies.map((tech) => (
-            <li>{tech}</li>
+            <button>{tech}</button>
              )
           )
         }
@@ -14,7 +14,9 @@ const TechStack_Section = (props) => {
       <ul className="tech-ul">
         {
           props.tools.map((tech) => (
-            <li>{tech}</li>
+            <li>
+            <button>{tech}</button>
+            </li>
              )
           )
         }
