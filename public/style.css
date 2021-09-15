@@ -120,5 +120,8 @@ section {
   object-fit: cover;
   object-position: bottom;
 }
-
-
+/* Project */
+.all_projects{
+  display: flex;
+  flex-direction: column;
+}

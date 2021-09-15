@@ -9,7 +9,7 @@ const AllProjects = () => {
       <div className='single_project'>
         {
           projects_List.map((project) => (
-            <Single_Project />
+            <Single_Project key={project.projectNo} project_content={project} />
           ))
         }
 
