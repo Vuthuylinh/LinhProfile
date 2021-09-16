@@ -7,8 +7,8 @@ const projects_List =[
     url_demo:'url demo',
     link_github:'github',
     url_github:'url github',
-    description:' project 1',
-    techStack:''
+    description:' project 1 description',
+    techStack:'tech stack 1'
 
   },
   {
@@ -19,8 +19,8 @@ const projects_List =[
     url_demo:'url demo',
     link_github:'github',
     url_github:'url github',
-    description:' project 2',
-    techStack:''
+    description:' project 2 description',
+    techStack:'tech stack 2'
   },
   {
     projectNo: 3,
@@ -30,8 +30,8 @@ const projects_List =[
     url_demo:'url demo',
     link_github:'github',
     url_github:'url github',
-    description:' project 3',
-    techStack:''
+    description:' project 3 description',
+    techStack:'tech stack 3'
   },
   {
     projectNo: 4,
@@ -41,8 +41,8 @@ const projects_List =[
     url_demo:'url demo',
     link_github:'github',
     url_github:'url github',
-    description:' project 4',
-    techStack:''
+    description:' project 4 description',
+    techStack:'tech stack 4'
   },
   {
     projectNo: 5,
@@ -52,8 +52,8 @@ const projects_List =[
     url_demo:'url demo',
     link_github:'github',
     url_github:'url github',
-    description:' project 5',
-    techStack:''
+    description:' project 5 description',
+    techStack:'tech stack 5'
   }
 ]
 

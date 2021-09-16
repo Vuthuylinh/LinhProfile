@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Single_Project = (props) => {
-  let projectNo = props.project_content.projectNo;
-  let { name, media, link_demo, url_demo, link_github, url_github, description, techStack } = props.project_content
+  const projectNo = props.project_content.projectNo;
+  const { name, media, link_demo, url_demo, link_github, url_github, description, techStack } = props.project_content
   return (
     <article>
       <h1>{name}</h1>
