@@ -19,7 +19,7 @@ const Single_Experience = (props) => {
         <h2>{logo}</h2>
         <h2>{description}</h2>
         <h2>{learn_from_work}</h2>
-        <h2>{job}</h2>
+        {/* <h2>{job}</h2> */}
         <ul>
           {
             duties.map((duty)=>(
