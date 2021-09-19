@@ -8,4 +8,10 @@
 - Pink Salmon: #ff999c
 - Rose Madder: #e02932
 - #f4d4c8
-
+- light blue: #35d3da
+- green: #9cb806
+- yellow: #fef764
+- range: #f89c12
+- red: #f23c06
+- reference: https://colorpalettes.net/color-palette-2094/
+- https://www.fabmood.com/summer-color-palette-grey-green-red-orange-and-clue-color-scheme/

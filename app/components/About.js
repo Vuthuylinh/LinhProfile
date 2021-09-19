@@ -2,7 +2,7 @@ import React from 'react'
 import linhPhoto from '../media/profilePictureLinh.png'
 export default function About() {
   return (
-    <section class="about-me">
+    <section id="about-me">
       <div class="intro">
         <article class="typewriter">
           <h1>Hi there! I'm Linh Vu</h1>
@@ -33,7 +33,7 @@ export default function About() {
           </svg>
         </div>
       </div>
-      
+
     </section>
 
   )

@@ -18,7 +18,7 @@ li {
   justify-content: space-evenly;
 }
 /* about me component */
-.about-me {
+#about-me {
   display: flex;
   background-color: #159ca2;
   height: 420px;
@@ -105,7 +105,7 @@ section {
 }
 
 /* TechStack */
-.techStack {
+#techStack {
   display: flex;
 }
 .tech_section {
@@ -121,7 +121,16 @@ section {
   object-position: bottom;
 }
 /* Project */
-.all_projects{
+#all_projects {
   display: flex;
   flex-direction: column;
+}
+.link-section{
+  text-decoration:none;
+}
+
+
+/* Experience */
+#all_experiences{
+  display: flex;
 }

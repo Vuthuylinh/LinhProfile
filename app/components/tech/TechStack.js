@@ -6,7 +6,7 @@ const techStack = technologiesList.techStack;
 const colaborative_tools = technologiesList.colaborative_tools;
 export default function TechStack() {
   return (
-    <div className='techStack'>
+    <div id='techStack'>
       <TechStack_Section technologies={techStack} tools={colaborative_tools} />
       <img id="techPicture" src={linhCali} />
     </div>

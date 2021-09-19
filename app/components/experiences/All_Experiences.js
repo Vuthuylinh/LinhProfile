@@ -3,7 +3,7 @@ import experience_List from './experience_List'
 import Single_Experience from './Single_Experience'
 const All_Experiences = () => {
   return (
-    <section className='all_experiences'>
+    <section id='all_experiences'>
       <h2>EXPERIENCE</h2>
       <div >
         {

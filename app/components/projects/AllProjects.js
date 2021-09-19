@@ -4,7 +4,7 @@ import Single_Project from './Single_Project'
 
 const AllProjects = () => {
   return (
-    <section className='all_projects'>
+    <section id='all_projects'>
       <h2>PROJECTS</h2>
       <div className='single_project'>
         {
