@@ -12,7 +12,7 @@ export default function About() {
             href=""
             class="typewrite"
             data-period="2000"
-            data-type='[ "I am a plants mom", "I was a banker", "Love to travel", "I Love to Develop." ]'
+            data-type='[ "I am a Software Developer", "I was a Banker", "I love to travel", "I love flowers" ]'
           >
             <span class="wrap"></span>
           </a>
@@ -26,12 +26,12 @@ export default function About() {
             alt="Linh's picture"
           />
         </div>
-        <div className="svg-wrapper">
+        {/* <div className="svg-wrapper">
           <svg height="400" width="400" xmlns="http://www.w3.org/2000/svg">
             <rect x="0" y="350" className="shape" height="50" width="200" />
             <text x="30" y="385" fill="#e02932" className="text" >LINH VU</text>
           </svg>
-        </div>
+        </div> */}
       </div>
 
     </section>
