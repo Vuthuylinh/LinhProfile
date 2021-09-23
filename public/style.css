@@ -28,6 +28,7 @@ section {
 
 /* about me component */
 #about-me {
+  display: flex;
   position: relative;
   max-height: 100vh;
 }
@@ -37,42 +38,13 @@ section {
   position: relative;
 }
 
-.info {
-  display: flex;
-  justify-content: space-evenly;
-}
 .intro {
+  left: 2em;
   width: 100%;
   position: absolute;
-  text-align: left;
-  top: 80px;
-}
-.typewriter h1 {
-  position: absolute;
-  color: rgb(8, 1, 1);
-  font-family: monospace;
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: 0.15em;
-  animation: typing 3.5s steps(30, end);
-}
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-.typewrite {
-  text-decoration: none;
-  text-align: center;
-  color: blue;
-  padding-top: 10em;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
 }
 
 /* TechStack */

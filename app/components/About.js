@@ -1,5 +1,6 @@
 import React from 'react'
 import cover from '../media/cover.png'
+
 export default function About() {
   return (
     <section id="about-me">
@@ -9,21 +10,22 @@ export default function About() {
         alt="Linh's picture"
       />
       <div class="intro">
-      <article class="typewriter">
-          <h1>Hi there! I'm Linh Vu</h1>
-        </article>
-        <h1>
-          <a
-            href=""
-            class="typewrite"
-            data-period="2000"
-            data-type='[ "I am a Software Developer", "I was a Banker", "I love to travel", "I love flowers" ]'
-          >
-            <span class="wrap"></span>
-          </a>
-        </h1>
+         <h1 id="linh_name">LINH VU</h1>
+        <div className="css-typing">
+        <p>
+        Welcome to my website!
+        </p>
+        <p>
+        My name is Linh,
+        </p>
+        <p>
+        I am a fullstack software developer
+        </p>
+        <p>
+          I am proud to be a Grace Hopper Scholar 2021
+        </p>
+        </div>
       </div>
-
 
     </section>
 
