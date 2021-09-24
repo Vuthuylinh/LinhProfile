@@ -9,7 +9,7 @@ export default function About() {
         src={cover}
         alt="Linh's picture"
       />
-      <div class="intro">
+      <div className="intro">
          <h1 id="linh_name">LINH VU</h1>
         <div className="css-typing">
         <p>

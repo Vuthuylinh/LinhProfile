@@ -8,12 +8,12 @@ import AllProjects from './components/projects/AllProjects'
 import All_Experiences from './components/experiences/All_Experiences'
 ReactDOM.render(
   <div>
-    <Navbar />
+    {/* <Navbar /> */}
     <About />
-    <Contact />
-    <TechStack />
+     <Contact />
+    {/* <TechStack />
     <AllProjects />
-    <All_Experiences />
+    <All_Experiences />  */}
   </div>,
   document.getElementById('app')
 );

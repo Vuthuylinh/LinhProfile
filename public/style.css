@@ -1,6 +1,4 @@
-body {
-  background-color: burlywood;
-}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -25,9 +23,14 @@ li {
 section {
   display: block;
 }
+.info{
+  display: flex;
+  justify-content: space-evenly;
+}
 
 /* about me component */
 #about-me {
+  width: 100%;
   display: flex;
   position: relative;
   max-height: 100vh;
@@ -44,7 +47,7 @@ section {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 100px;
+  top: 5em
 }
 
 /* TechStack */
