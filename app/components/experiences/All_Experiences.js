@@ -1,5 +1,5 @@
 import React from 'react'
-import experience_List from './experience_List'
+import experience_List from './Experience_List'
 import Single_Experience from './Single_Experience'
 const All_Experiences = () => {
   return (
@@ -8,7 +8,7 @@ const All_Experiences = () => {
       <div >
         {
           experience_List.map((experience) => (
-            <Single_Experience key={experience.experienceNo} experience_info={experience} />
+            <Single_Experience key={experience.experiencNo} experience_info={experience} />
           ))
         }
       </div>
