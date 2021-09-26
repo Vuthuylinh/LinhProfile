@@ -10,10 +10,11 @@ ReactDOM.render(
   <div>
     <Navbar />
     <About />
-     <Contact />
+    {/* <Contact /> */}
     <TechStack />
+    <Contact />
     <AllProjects />
-    <All_Experiences /> 
+    <All_Experiences />
   </div>,
   document.getElementById('app')
 );

@@ -66,6 +66,15 @@ section {
   object-fit: cover;
   object-position: bottom;
 }
+.tech_name{
+  margin: 0.5em 0.5em ;
+  border-radius: 12px;
+  background-color: pink;
+  font-size: 1.2em;
+}
+.tech_name:hover{
+  background-color: chartreuse;
+}
 /* Project */
 #all_projects {
   display: flex;
