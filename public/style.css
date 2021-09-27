@@ -1,3 +1,12 @@
+body {
+  background-image: url('https://flevix.com/wp-content/uploads/2019/12/Live-Wave-Background.svg');
+  background-color: #0bafc1;
+  background-blend-mode: lighten;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -26,7 +35,7 @@ nav {
   text-align: center;
 }
 .connect_info img {
-  width: 64px;
+  width: 50px;
 }
 a {
   text-decoration: none;
@@ -41,9 +50,16 @@ section {
 }
 .info {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #efe1d1;
+  width: 100%;
+  opacity: 80%;
+  font-family: 'Lemonada', cursive;
 }
-
+.info img {
+  width: 50px;
+}
 /* about me component */
 #about-me {
   width: 100%;
@@ -64,14 +80,20 @@ section {
   display: flex;
   flex-direction: column;
   top: 5em;
+
 }
 
 /* TechStack */
+.tech_section h1 {
+  text-align: center;
+}
 #techStack {
   display: flex;
+  padding: auto 2em;
+  margin: auto 5em;
 }
 .tech_section {
-  /* display: flex; */
+  font-family: 'Lemonada', cursive;
 }
 .tech-ul {
   flex-wrap: wrap;

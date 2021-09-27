@@ -3,13 +3,14 @@ import React from 'react'
 export default function Contact() {
   return (
     <div className="info">
+      <h1>Connect Linh</h1>
       <a
         href="https://www.linkedin.com/in/linh-vu-de/"
         arget="_blank"
         rel="noopener noreferrer"
         aria-label="visit Linh's LinkedIn page"
       >
-        <img src="https://img.icons8.com/dusk/50/000000/linkedin.png" />
+        <img src="https://img.icons8.com/nolan/64/linkedin.png" />
       </a>
       <a
         href="https://github.com/Vuthuylinh"
@@ -17,7 +18,7 @@ export default function Contact() {
         rel="noopener noreferrer"
         aria-label="visit Linh's Github page"
       >
-        <img src="https://img.icons8.com/dusk/50/000000/github.png" />
+        <img src="https://img.icons8.com/nolan/50/github.png" />
       </a>
       <a
         href="https://drive.google.com/file/d/1gQGRScLP7O9TmsllY3I5QvIgIHa9fzhu/view"
@@ -25,13 +26,13 @@ export default function Contact() {
         rel="noopener noreferrer"
         aria-label="visit Linh's Resume"
       >
-        <img src="https://img.icons8.com/dusk/50/000000/resume.png" />
+        <img src="https://img.icons8.com/nolan/50/resume.png" />
       </a>
       <a
         href="mailto:thuylinh2490@gmail.com?subject= Hi there!"
         aria-label="send Linh an email"
       >
-        <img src="https://img.icons8.com/dusk/50/000000/email.png" />
+        <img src="https://img.icons8.com/nolan/50/email.png" />
       </a>
     </div>
   )
