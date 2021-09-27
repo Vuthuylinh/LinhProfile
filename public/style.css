@@ -1,4 +1,3 @@
-
 nav {
   display: flex;
   justify-content: space-around;
@@ -10,10 +9,27 @@ nav {
   left: 0;
   opacity: 80%;
 }
+#logo {
+  color: #e02932;
+  font-size: 1.8em;
+  font-family: 'Fascinate', cursive;
+}
 .navbar {
   display: flex;
   justify-content: space-around;
   text-transform: uppercase;
+}
+.connect_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.connect_info img {
+  width: 64px;
+}
+a {
+  text-decoration: none;
 }
 li {
   display: inline-block;
@@ -23,9 +39,9 @@ li {
 section {
   display: block;
 }
-.info{
+.info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 /* about me component */
@@ -47,7 +63,7 @@ section {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 5em
+  top: 5em;
 }
 
 /* TechStack */
@@ -66,13 +82,13 @@ section {
   object-fit: cover;
   object-position: bottom;
 }
-.tech_name{
-  margin: 0.5em 0.5em ;
+.tech_name {
+  margin: 0.5em 0.5em;
   border-radius: 12px;
   background-color: pink;
   font-size: 1.2em;
 }
-.tech_name:hover{
+.tech_name:hover {
   background-color: chartreuse;
 }
 /* Project */

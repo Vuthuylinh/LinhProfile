@@ -10,10 +10,9 @@ export default function About() {
         alt="Linh's picture"
       />
       <div className="intro">
-         <h1 id="linh_name">LINH VU</h1>
         <div className="css-typing">
         <p>
-        Welcome to my website!
+         Welcome to my website!
         </p>
         <p>
         My name is Linh,
