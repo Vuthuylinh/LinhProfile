@@ -8,11 +8,12 @@ import AllProjects from './components/projects/AllProjects'
 import All_Experiences from './components/experiences/All_Experiences'
 ReactDOM.render(
   <div>
-    <Navbar1 />
+  {/* <Navbar1 /> */}
     <About />
-    {/* <Contact /> */}
-    <TechStack />
     <Contact />
+
+    {/* <TechStack />
+    <Contact /> */}
     {/* <AllProjects />
     <All_Experiences /> */}
   </div>,

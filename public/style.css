@@ -1,6 +1,7 @@
 body {
-  background-image: url('https://flevix.com/wp-content/uploads/2019/12/Live-Wave-Background.svg');
-  background-color: #0bafc1;
+  /* background-image: url('https://flevix.com/wp-content/uploads/2019/12/Live-Wave-Background.svg');
+  background-color:  #35d3da; */
+  background-image: url("../app/media/backgound2.png");
   background-blend-mode: lighten;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -52,9 +53,9 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #efe1d1;
+  /* background-color: #efe1d1; */
   width: 100%;
-  opacity: 80%;
+  /* opacity: 80%; */
   font-family: 'Lemonada', cursive;
 }
 .info img {
@@ -67,6 +68,12 @@ section {
   position: relative;
   max-height: 100vh;
 }
+.info a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #profile-image {
   width: 100%;
   object-fit: cover;

@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 export default function Navbar() {
   return (
     <nav>
-      <h1><a id="logo">Linh Vu</a></h1>
+      {/* <h1><a id="logo">Linh Vu</a></h1> */}
 
       <div>
         <a className="connect_info"
