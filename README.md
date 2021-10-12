@@ -15,3 +15,8 @@
 - red: #f23c06
 - reference: https://colorpalettes.net/color-palette-2094/
 - https://www.fabmood.com/summer-color-palette-grey-green-red-orange-and-clue-color-scheme/
+
+# Instruction
+Run locally: 
+- run `npm install`
+- run `npm run start`
